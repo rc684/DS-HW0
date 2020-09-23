@@ -41,4 +41,12 @@ Finishing the code part, I ran the following command in terminal:
 spark-submit ConditionalBigrams.py wiki.txt Step5_Outcome
 ```
 
-One folder na
+One folder named "Step5_Outcome" was generated, in which there were 2 sub-folders:
+
+<img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Outcome.png">
+
+Bigram counts are stored in "part1" folder:
+
+<img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Part1.png">
+
+
