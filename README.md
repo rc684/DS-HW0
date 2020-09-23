@@ -30,7 +30,7 @@ while having the initial word to be the key, i.e. entry in temp RDD looks like (
 
 And then, I joined the temp RDD with wordCounts on the key of initial word,
 so that we have count information for both initial words and bigrams.
-Finally, the conditional prob is ready to be calculated with (#bigram / #initial word).
+Finally, the conditional prob is ready to be calculated with #bigram / #initial word.
 
 <img src="https://github.com/rc684/DS-HW0/blob/master/Bigram_Code.png">
 
@@ -46,7 +46,8 @@ When it's done, a folder named "Step5_Outcome" was generated in the project fold
 
 <img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Outcome.png">
 
-Bigram counts are stored at "part1" folder, in the file named "part-00000", in a format of (('word1', 'word2'), count)).
+Bigram counts are stored at "part1" folder, in the file named "part-00000", 
+in a format of (('word1', 'word2'), count)).
 
 <img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Part1.png">
 
