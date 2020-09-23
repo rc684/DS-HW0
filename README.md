@@ -17,7 +17,7 @@ As result, a folder named "output_directory" shown up in the project folder, whi
 <img src="https://github.com/rc684/DS-HW0/blob/master/WordCount.png">
 
 where the word counts are listed in the file named "part-00000", with format of ('word', count).
-*The file has been renamed as "Word Counts" in the zipped folder.
+* The file has been renamed as "Word Counts" in the zipped folder.
 
 * Step 5 Bigrams
 
@@ -47,12 +47,12 @@ When it's done, a folder named "Step5_Outcome" was generated in the project fold
 <img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Outcome.png">
 
 Bigram counts are stored at "part1" folder, in the file named "part-00000", with format of (('word1', 'word2'), count)).
-*The file has been renamed as "Bigram Counts" in the zipped folder.
+* The file has been renamed as "Bigram Counts" in the zipped folder.
 
 <img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Part1.png">
 
 Conditional probability, i.e. frequency distribution is stored at "part2" folder,
 in the file named "part-00000", with format of (('word1', 'word2'), prob.)).
-*The file has been renamed as "Conditional Prob." in the zipped folder.
+* The file has been renamed as "Conditional Prob." in the zipped folder.
 
 <img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Part2.png">
