@@ -7,7 +7,6 @@ I created the wordcount.py file and ran the following command in terminal:
 
 ```
 spark-submit wordcount.py wiki.txt output_directory
-
 ```
 
 Note that both wordcount.py and wiki.txt files are save in the same underlying project folder, 
@@ -40,5 +39,5 @@ Finishing the code part, I ran the following command in terminal:
 
 ```
 spark-submit ConditionalBigrams.py wiki.txt Step5_Outcome
-
 ```
+
