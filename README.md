@@ -42,7 +42,7 @@ spark-submit ConditionalBigrams.py wiki.txt Step5_Outcome
 ```
 
 
-One folder named "Step5_Outcome" was generated, in which there were 2 sub-folders:
+When it's done, a folder named "Step5_Outcome" was generated in the project folder, which contained 2 sub-folders:
 
 <img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Outcome.png">
 
