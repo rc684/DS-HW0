@@ -16,7 +16,7 @@ As result, a folder named "output_directory" shown up in the project folder, whi
 
 <img src="https://github.com/rc684/DS-HW0/blob/master/WordCount.png">
 
-where the word counts are listed in the file named "part-00000", with in the format of ('word', count).
+where the word counts are listed in the file named "part-00000", in the format of ('word', count).
 
 
 * Step 5 Bigrams
@@ -41,12 +41,16 @@ Finishing the code part, I ran the following command in terminal:
 spark-submit ConditionalBigrams.py wiki.txt Step5_Outcome
 ```
 
+
 One folder named "Step5_Outcome" was generated, in which there were 2 sub-folders:
 
 <img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Outcome.png">
 
-Bigram counts are stored in "part1" folder:
+Bigram counts are stored at "part1" folder, in the file named "part-00000", in a format of (('word1', 'word2'), count)).
 
 <img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Part1.png">
 
+Conditional probability, i.e. frequency distribution is stored at "part2" folder,
+in the file named "part-00000", in a format of (('word1', 'word2'), prob.)).
 
+<img src="https://github.com/rc684/DS-HW0/blob/master/Step5_Part2.png">
