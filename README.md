@@ -41,3 +41,4 @@ Finishing the code part, I ran the following command in terminal:
 spark-submit ConditionalBigrams.py wiki.txt Step5_Outcome
 ```
 
+One folder na
